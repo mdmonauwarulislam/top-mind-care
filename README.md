@@ -21,7 +21,7 @@ A beautiful, responsive landing page for Top Mind Care, a mindfulness and medita
 
 ## 🚀 Tech Stack
 
-- **Frontend**: React 18 with JSX
+- **Frontend**: React(Vite) with JSX
 - **Build Tool**: Vite 5
 - **Styling**: Tailwind CSS 4
 - **Icons**: Lucide React
@@ -170,38 +170,6 @@ The entire landing page is fully responsive with:
 - **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
-## 🎯 Key Features
-
-### Interactive Elements
-- **Floating card animation** in hero section
-- **Hover effects** on cards and buttons
-- **Smooth transitions** throughout
-- **Reveal animations** on scroll
-
-### Accessibility
-- **Semantic HTML structure**
-- **Proper heading hierarchy**
-- **Alt text for images**
-- **Keyboard navigation support**
-- **Screen reader friendly**
-
-### Performance
-- **Lazy loading** for images
-- **Optimized bundle size**
-- **Fast Vite build system**
-- **Efficient CSS with Tailwind**
-
-## 🚀 Deployment
-
-### Static Hosting
-The project builds to static files that can be deployed to:
-
-- **Vercel** (recommended)
-- **Netlify**
-- **GitHub Pages**
-- **AWS S3**
-- **Any static hosting service**
-
 ### Build Output
 ```bash
 npm run build
@@ -224,9 +192,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For support or questions about this project:
 
-- **Email**: support@topmindcare.com
-- **Website**: [topmindcare.com](https://topmindcare.com)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/top-mind-care-landing/issues)
+- **Email**: mdmonauwarulislam@gmail.com
+- **Website**: [https://top-mind-care.vercel.app/](https://top-mind-care.vercel.app/)
+- **Github**: [GitHub](https://github.com/mdmonauwarulislam/top-mind-care)
 
 ## 🙏 Acknowledgments
 

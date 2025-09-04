@@ -70,7 +70,7 @@ export default function Programs() {
               }`}
             >
               <h3 className="text-xl md:text-2xl font-bold">{b.title}</h3>
-              <p className="mt-2 text-sm md:text-base font-semibold md:text-lg" style={{ color: 'var(--color-muted)' }}>
+              <p className="mt-2 text-sm md:text-base font-semibold" style={{ color: 'var(--color-muted)' }}>
                 {b.desc}
               </p>
 
