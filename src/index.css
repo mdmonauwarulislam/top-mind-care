@@ -1,0 +1,69 @@
+/* Tailwind v4 - no config file required */
+@import "tailwindcss";
+
+/* Design tokens: 4 colors total (violet primary, emerald accent, and neutrals) */
+@theme {
+  --color-brand: #6d5cff; /* Violet primary */
+  --color-accent: #10b981; /* Emerald accent */
+  --color-ink: #0f172a; /* Slate-900 */
+  --color-muted: #64748b; /* Slate-500 */
+  --color-green: #00D100;
+}
+
+:root {
+  color-scheme: light;
+}
+
+/* Typography */
+body {
+  font-family: "Quicksand", Segoe UI, Inter, ui-sans-serif, system-ui, -apple-system, Roboto, Helvetica, Arial, "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+/* Utilities to match soft card look */
+.card {
+  @apply rounded-2xl bg-white shadow-[0_8px_24px_rgba(2,6,23,0.06)] ring-1 ring-black/5;
+}
+
+.pill {
+  @apply inline-flex items-center rounded-full px-2 py-0.5 text-sm font-semibold;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl px-4 py-3 text-sm font-semibold transition-all duration-200;
+}
+.btn-brand {
+  background-color: var(--color-brand);
+  @apply text-white text-lg rounded-2xl hover:brightness-110 active:scale-[0.98];
+}
+.btn-green {
+  background-color: var(--color-green);
+  @apply text-white text-lg rounded-2xl hover:brightness-110 active:scale-[0.98];
+}
+.btn-ghost {
+  @apply bg-white ring-1 ring-black/10 hover:bg-slate-50;
+  color: var(--color-ink);
+}
+.btn-outline {
+  @apply bg-white ring-2 hover:ring-[--color-brand];
+  color: var(--color-brand);
+  border-color: var(--color-brand);
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Section container */
+.section {
+  @apply mx-auto w-full max-w-7xl px-4 md:px-6;
+}
+
+/* Smooth fade/slide for on-view elements */
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
