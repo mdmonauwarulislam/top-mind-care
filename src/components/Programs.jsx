@@ -1,11 +1,12 @@
 import { Star, Heart, Moon, Smile, Timer, Gift, Map } from "lucide-react";
 
+
 export default function Programs() {
   const blocks = [
     {
       title: "Little Explorers (4–8)",
       desc: "Short, fun adventures with simple breath tools that build calm bodies, flexible thinking, and gentle courage.",
-      img: "/public/group-of-kids-laughing.png",
+      img: "/group-of-kids-laughing.png",
       tags: [
         { label: "Calm Corner", icon: <Smile className="h-4 w-4 text-emerald-500" /> },
         { label: "Zen Mode", icon: <Heart className="h-4 w-4 text-pink-500" /> },
@@ -15,7 +16,7 @@ export default function Programs() {
     {
       title: "Brave Thinkers (7–10)",
       desc: "Mindful stories, focus quests, and kindness practices that build confidence and classroom teamwork.",
-      img: "/public/little-explorers-mindfulness.png",
+      img: "/little-explorers-mindfulness.png",
       tags: [
         { label: "Focus Timer", icon: <Timer className="h-4 w-4 text-blue-500" /> },
         { label: "Gratitude Notes", icon: <Heart className="h-4 w-4 text-rose-500" /> },
@@ -25,7 +26,7 @@ export default function Programs() {
     {
       title: "Calm & Curious (11–14)",
       desc: "Longer mindful trainings, breathing drills, and sleep stories for deeper rest and emotional balance.",
-      img: "/public/child-smiling-city-evening.png",
+      img: "/child-smiling-city-evening.png",
       tags: [
         { label: "Mindset Maps", icon: <Map className="h-4 w-4 text-green-500" /> },
         { label: "Sleep Stories", icon: <Moon className="h-4 w-4 text-indigo-500" /> },
